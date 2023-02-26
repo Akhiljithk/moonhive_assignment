@@ -1,0 +1,91 @@
+.NavBar{
+    background: #2373BA;
+    height: 163px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.s1{
+    display: flex;
+}
+.s1head{
+    color: white;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.logo{
+    width: 100px;
+}
+
+.content{
+    width: 70%;
+    max-width: 1076px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textInLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s1subtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #d2d2d2;
+    font-size: 13px;
+}
+
+.editAct{
+    background: transparent;
+    color: white;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: scale 0.3s ease-in-out;
+}
+.editAct:hover{
+    scale: 0.9;
+}
+
+.line{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.392);
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.underline {
+    border-bottom: 4px solid #ffffff;
+    /* margin-top: 2px; */
+    border-radius: 3px;
+}
+.tabs p{
+    color: #fff;
+    margin-right:20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.tabWapper{
+    width: 70%;
+    max-width: 1076px;
+}
+.tabsSec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

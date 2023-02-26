@@ -1,0 +1,263 @@
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.bestScore {
+  width: 50%;
+  min-width: 370px;
+  height: 370px;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  /* box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 11%); */
+}
+.bestScoreHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+}
+.bestScoreHeadSec1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.popularTopics {
+  cursor: pointer;
+}
+.dropDownPopular {
+  padding: 0px 5px;
+  border-radius: 50px;
+  user-select: none;
+}
+.dropDownPopular:hover {
+  background: rgb(235, 235, 235);
+}
+.count {
+  color: red;
+  font-family: "Oswald", sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+}
+.sec1div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.experience {
+  width: auto;
+  max-width: 472px;
+  height: auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.achievement {
+  width: auto;
+  max-width: 472px;
+  min-width: 491px;
+  height: auto;
+  border-radius: 3px;
+}
+
+.canvaWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 350px;
+  width: 350px;
+}
+.chart2Img {
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+.nextBtn {
+  position: absolute;
+  right: 204px;
+  top: 670px;
+  border-radius: 50% !important;
+  border: none;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 26%);
+}
+.nextBtn:hover {
+  background: rgb(141, 141, 141);
+}
+
+.learningPathCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.learningPathCardImage {
+  width: 50px;
+  height: 50px;
+}
+
+.learningPathCardWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.courseCard {
+    width: 234px;
+    height: 215px;
+  border-radius: 7px;
+
+}
+.courseCard img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.courseCardCaption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 8px;
+}
+.Tutorio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #1C1F24;
+    padding: 3px 12px;
+    height: 50px;
+}
+.TutorioLogo{
+    width: 118px;
+    height: auto;
+}
+.userImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.TutorioSec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.TutorioSec1 input{
+    margin-left: 15px;
+    padding: 12px 14px;
+    border-radius: 5px;
+    color: white;
+    background: #303A40;
+    border: none;
+    outline: none;
+}
+ 
+.custom-input:focus {
+    outline: none;
+    border: none;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-icon {
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  #search{
+    width: 268px;
+    font-size: 14px;
+    transition: scale 0.3s ease-in-out;
+  }
+  #search:hover{
+    scale:0.93;
+    transition: scale 0.3s ease-in-out;
+  }
+  .searchCourses{
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    background: #303A40;
+    padding: 8px 12px;
+    width: 83px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .searchCourses p{
+    margin-bottom: 4px;
+  }
+  .searchCourses:hover{
+    background: #252d31;
+  }
+  .selectUser{
+    color: white;
+    margin-bottom: 8px;
+  }
+  .userImg:hover{
+    scale:0.9;
+    transition: scale 0.3s ease-in-out;
+  }
+  .noti{
+    color: gray;
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+  }
+  .ct{
+    width: 22px;
+    height: 17px;
+    border-radius: 20px;
+    background: #ff3f3f;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    font-size: 12px;
+  }
+
+  .f{
+    transition: scale 0.3s ease-in-out;
+  }
+
+  .f:hover{
+    scale:0.93;
+    transition: scale 0.3s ease-in-out;
+  }
